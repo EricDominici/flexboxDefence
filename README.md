@@ -5,29 +5,29 @@
 
 ### Propiedades 
 
-1. justify-contentcoloca los elementos de un contenedor a lo largo del eje principal y acepta los siguientes valores:
+1. justify-content
 
-2. flex-start: agrupar elementos al inicio del eje principal de un contenedor
-3. flex-end: agrupar elementos al final del eje principal
-4. center: agrupar elementos en el centro del eje principal
-5. space-between: distribuye uniformemente los elementos a lo largo del eje principal de modo que el primer elemento se alinee al principio y el elemento final se alinee al final
-6. space-around: distribuye uniformemente los elementos a lo largo del eje principal de modo que todos los elementos tengan el mismo espacio a su alrededor
-Intente, justify-content: center;por ejemplo, mover las torres del contenedor al centro del eje principal.
-=======
-# Flex Box Defense
+- flex-start: agrupar elementos al inicio del eje principal de un contenedor
+- flex-end: agrupar elementos al final del eje principal
+- center: agrupar elementos en el centro del eje principal
+- space-between: distribuya uniformemente los elementos a lo largo del eje - - - principal de modo que el primer elemento se alinee al principio y el elemento final se alinee al final
+- space-around: distribuya uniformemente los elementos a lo largo del eje principal de modo que todos los elementos tengan el mismo espacio a su alrededor
 
-## El objetivo del juego es evitar que los enemigos entrantes traspasen las defensas. A diferencia de otros juegos de defensa de torres, ¡debes posicionar tus torres usando CSS!
+2. align-items and align-self
 
-### Propiedades 
+- flex-start: alinea los artículos a lo largo del inicio del eje transversal de un contenedor
+- flex-end: alinea el (los) artículo (s) a lo largo del extremo del eje transversal
+- center: alinea los elementos a lo largo del centro del eje transversal
 
-1. justify-contentcoloca los elementos de un contenedor a lo largo del eje principal y acepta los siguientes valores:
+3. flex-direction
 
-2. flex-start: agrupar elementos al inicio del eje principal de un contenedor
-3. flex-end: agrupar elementos al final del eje principal
-4. center: agrupar elementos en el centro del eje principal
-5. space-between: distribuye uniformemente los elementos a lo largo del eje principal de modo que el primer elemento se alinee al principio y el elemento final se alinee al final
-6. space-around: distribuye uniformemente los elementos a lo largo del eje principal de modo que todos los elementos tengan el mismo espacio a su alrededor
-Intente, justify-content: center;por ejemplo, mover las torres del contenedor al centro del eje principal.
+- row: diseñe el eje principal de izquierda a derecha
+- row-reverse: diseñar el eje principal de derecha a izquierda
+- column: diseñe el eje principal de arriba a abajo
+- column-reverse: diseñe el eje principal de abajo hacia arriba
+pedido
 
->Eric Dominici #3
->>>>>>> 917e87c54a2d6133d38da366c264b6f1b1ddb328
+4. order
+- position an item relative to the other items in the container
+
+>Eric Dominici
